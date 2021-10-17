@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.Quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    width:30vw;
+    border:solid 1px rgba(53, 52, 52, 0.801);
+
+
+  }
+  
+  .quiz input {
+    width: 50%;
+   /* padding: 0.2rem;*/
+  }
+
+  .QuizTitle{
+    font-size:2rem
+  }

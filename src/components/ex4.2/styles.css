@@ -1,0 +1,19 @@
+.card {
+    outline: 1px solid black;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.link {
+    color: orange;
+    margin: 10px;
+    list-style: none;
+    font-size: 3rem;
+    text-decoration: none;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size:2rem
+}

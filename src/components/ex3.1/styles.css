@@ -1,0 +1,36 @@
+
+.box1{
+    width:  100rem ;
+    height:  100vh ;
+    background:  #69f0ae ;
+    padding-Top:  5rem ;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    background: #66ccff;
+    margin: 0 auto;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    background: pink;
+    padding-Top: 8rem;
+}
+
+.box4{
+    width: 50%;
+    height: 40%;
+    background: #c766ec;
+    margin-top: 20rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-Items: center;
+    justify-items: center;
+}
