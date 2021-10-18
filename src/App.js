@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 //import Comp from './components/ex2.2/comp';
 
@@ -8,7 +8,16 @@ import './App.css';
 
 //import Btn from './components/ex4.1/btn';
 
-import Card from './components/ex4.2/index';
+// import Card from './components/ex4.2/index';
+// import imgURL from './components/ex4.2/img/nat.jpg';
+
+
+// 6.1 
+// import Card from './components/ex6.1/card';
+// import test from './components/ex6.1/img/nat.jpg';
+
+//import Increment from './components/ex7.1/increment.js'
+import Hideseek from './components/ex7.2/hideseek'
 
 function App() {
   return (
@@ -17,7 +26,10 @@ function App() {
       { /* <Box1/>  *//*    question 3.1   */}
   {/* <Quiz/> */}
       {/*<Btn/>*/}
-      <Card/>
+      {/* 6.1 */}
+  {/* <Card imgURL={test} title={"title"} text={"text"} link={"link"} /> */}
+  {/*<Increment/> // 7.1 */}
+    <Hideseek/>
     </div>
   );
 }
