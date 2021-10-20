@@ -17,19 +17,31 @@ import './App.css';
 // import test from './components/ex6.1/img/nat.jpg';
 
 //import Increment from './components/ex7.1/increment.js'
-import Hideseek from './components/ex7.2/hideseek'
+//import Hideseek from './components/ex7.2/hideseek'
+//import Lifecycle from './components/ex8.1/lifecycle'
+
+//import Slidebox from './components/ex8.2/slidebox'
+//import Changcolor from './components/ex8.3/changcolor'
+//import Spinner from './components/ex9.1/spinner'
+
+import Jokes from './components/ex12.1/index'
+
 
 function App() {
   return (
     <div>
     { /*  <Comp/> */ /* question 2.2  */ }
       { /* <Box1/>  *//*    question 3.1   */}
-  {/* <Quiz/> */}
+    {/* <Quiz/> */}
       {/*<Btn/>*/}
       {/* 6.1 */}
-  {/* <Card imgURL={test} title={"title"} text={"text"} link={"link"} /> */}
-  {/*<Increment/> // 7.1 */}
-    <Hideseek/>
+    {/* <Card imgURL={test} title={"title"} text={"text"} link={"link"} /> */}
+    {/*<Increment/> // 7.1 */}
+      {/*<Hideseek/> 7.2*/}
+    {/* <Lifecycle/>   8.1 */}
+    {/*<Slidebox/>*/}
+    {/*<Changcolor/>*/}
+    <Jokes/>
     </div>
   );
 }

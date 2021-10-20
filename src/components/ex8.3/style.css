@@ -1,0 +1,11 @@
+.wrapper{
+    margin: 10px;
+  /*  transform: translateX(-500);*/
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  /*  background-color: red;*/
+}

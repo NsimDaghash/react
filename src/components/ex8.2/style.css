@@ -1,0 +1,27 @@
+
+.wrapper{
+    margin: 10px;
+  /*  transform: translateX(-500);*/
+}
+
+.box1{
+    background-color: tomato;
+    width: 50px;
+    height: 60px;
+    margin: 10px;
+
+}
+
+.box2{
+    background-color: turquoise;
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+}
+
+.box3{
+    background-color: green;
+    width: 80px;
+    height: 100px;
+    margin: 10px;
+}
