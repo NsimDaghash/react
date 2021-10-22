@@ -24,8 +24,11 @@ import './App.css';
 //import Changcolor from './components/ex8.3/changcolor'
 //import Spinner from './components/ex9.1/spinner'
 
-import Jokes from './components/ex12.1/index'
+//import Jokes from './components/ex12.1/index'
 
+//import Appp from './components/ex11evgini/src/Appp';
+//import CheckedBox from './components/ex11.2/checkbos';
+import CheckboxContainer from './components/exr11.2/CheckboxContainer';
 
 function App() {
   return (
@@ -41,7 +44,10 @@ function App() {
     {/* <Lifecycle/>   8.1 */}
     {/*<Slidebox/>*/}
     {/*<Changcolor/>*/}
-    <Jokes/>
+    {/*<Jokes/>*/}
+    {/*<Appp/>*/}
+    {/*<CheckedBox/>*/}
+    <CheckboxContainer/>
     </div>
   );
 }
