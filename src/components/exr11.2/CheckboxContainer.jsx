@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import checkboxes from './checkboxes';
 import Checkbox from './Checkbox ';
 
@@ -25,6 +24,9 @@ class CheckboxContainer extends React.Component {
       <React.Fragment>
         {
           checkboxes.map(item => {
+            if(item%2 === 0){
+              this.setState = (!this.state.checkedItems.get(item.name))
+            }
             return (
               <label key={item.key}>
                 <Checkbox name={item.name} checked={this.state.checkedItems.get(item.name)} onChange={this.handleChange} />
